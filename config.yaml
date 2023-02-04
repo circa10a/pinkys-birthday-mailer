@@ -1,0 +1,22 @@
+config:
+  apiToken: '' # MAILFORM_API_TOKEN environment variable takes precedence
+  count: 10
+  dryrun: false
+  imageDirectory: ./images
+  outputDirectory: ./output
+  mail:
+    to:
+      name: redacted
+      address: redacted
+      city: Seattle
+      state: WA
+      postalCode: 00000
+      country: US
+    from:
+      name: redacted
+      address: redacted
+      city: Seattle
+      state: WA
+      postalCode: 00000
+      country: US
+    service: USPS_POSTCARD
